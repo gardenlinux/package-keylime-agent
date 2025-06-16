@@ -1,0 +1,2 @@
+git_src --branch v0.2.7 https://github.com/keylime/rust-keylime.git
+import_src .

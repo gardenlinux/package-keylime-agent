@@ -1,0 +1,14 @@
+Source: keylime-agent
+Maintainer: Keylime Authors
+Section: net
+Priority: optional
+Build-Depends: debhelper-compat (= 13), pkg-config, cargo, libssl-dev, libtss2-dev, libclang-dev
+Standards-Version: 4.6.1
+Homepage: https://github.com/keylime/rust-keylime
+Rules-Requires-Root: no
+
+Package: keylime-agent
+Architecture: any
+Depends: ${misc:Depends}, ${shlibs:Depends}
+Multi-Arch: foreign
+Description: Rust agent for Keylime
