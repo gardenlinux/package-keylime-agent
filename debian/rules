@@ -2,3 +2,8 @@
 
 %:
 	dh $@
+
+override_dh_install:
+	rm -f debian/keylime-agent/keylime_agent.service
+	rm -f debian/keylime-agent/var-lib-keylime-secure.mount
+	dh_install
