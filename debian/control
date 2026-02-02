@@ -1,5 +1,5 @@
 Source: keylime-agent
-Maintainer: Keylime Authors
+Maintainer: Keylime Authors <name@placeholder.xyz>
 Section: net
 Priority: optional
 Build-Depends: debhelper-compat (= 13), pkg-config, cargo, libssl-dev, libtss2-dev, libclang-dev
